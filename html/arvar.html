@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #FF6347;
+  padding: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 100%;
+  height: 1000px; /* only for demonstration, should be removed */
+  background: #F0E68C;
+  padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #F0E68C;
+  height: 1000px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #3CB371;
+  padding: 10px;
+  text-align: left;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<header>
+    <h2>AR-VR/GAMING</h2>
+    <p> </p>
+
+</header>
+
+<section>
+  <article>
+      <p><img src="2d.png" alt="." style="width:400px;height:300px;"></p>
+    <h1>2D GAME : The Rolling Ball</h1>
+    <p>For this project I decided to create a 2D game that I call ‘Rolling Ball’.
+This project was inspired by Minecraft. I would often play the game as a child, it was 
+one of my absolute favourites. Playing my game, you may feel nostalgic as it has a 
+similar experience to its inspiration.
+My game provides the user with up, down, left and right keys that the user must use 
+in order to move the ball around. The aim of the game is to collect as many red and 
+blue cubes as possible in the time provided. The counter at the top left counts the 
+number of red and blue cubes collected.</p>
+      <h1>Goal Of The Work :</h1>
+<p>I displayed my love for my childhood game in this project. Minecraft was a large part of my 
+childhood so I was passionate creating this game.
+I found Unity an easy enough tool to use. Creating the movements and the layout of the 
+game was no trouble at all.</p>
+      <h1>Image associated with 2D Game</h1>
+      <p><img src="13.png" alt="." style="width:500px;height:350px;"></p>
+     
+    </article>
+    <h2>3D Animation : The Fashion Show</h2>
+    <p>Alexa is the first fashion model up in today’s fashion show. The crowd goes wild and stares in awe as she sashays her way to the front of the stage slowing down ever so slightly before striking her most conspicuous pose. 
+She’s dressed in woman’s business casual but the confidence in her walk has everyone thinking she’s special and so are the clothes she wears. She smiles at this thought as she turns to walk back to the far end of the stage where the next model would be waiting for her return. Her boss would be very pleased with her today.   
+My project tells the story of this proudful moment in Alexa’s life in a visual, 3D form. 
+My inspiration for this project came to me from memories of past classmates (from when I was studying Masters of Computer Application) putting up a similar show back home. I find fashion shows fascinating because I enjoy the fact that so many people work so hard to give the models their time in the spotlight. I find it peculiar how a couple seconds’ walk can mean so much to a group of people. So I decided to display this vision of mine for my 3d project. 
+
+      
+<script> 
+var myVideo = document.getElementById("video1"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
+
+function makeBig() { 
+    myVideo.width = 560; 
+} 
+
+function makeSmall() { 
+    myVideo.width = 320; 
+} 
+
+function makeNormal() { 
+    myVideo.width = 420; 
+} 
+</script> 
+
+<p>Video courtesy of <a href="alexa_model.mp4" target="_blank">Alexa</a>.</p>
+</section>
+
+<footer>
+ <h3>What I learnt from this project : </h3>
+
+  <p>I found creating this project to be an interesting and exciting challenge. 
+Since the tool, Maya, was new to me I found it difficult to get the hang of it. I also found that the character kept slowing down every time I reopened the file which was rather annoying. 
+If I was to do it again to improve it I would work on creating my own models instead of importing them. Creating my own models would give me the freedom to focus on details such as facial expressions on each individual crowd member.
+I would also involve some more effects such as lighting to add to the atmosphere that the camera angles and audio work together to create. 
+      In the Animation i learnt 2D game developement use tools Unity 9.0 and Adobe premier.
+</p>
+  
+    
+
+    <a href="C:\Users\avi\Music\creative\index.html">Back to Home</a>
+</footer>
+    
+
+</body>
+</html>
